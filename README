@@ -1,17 +1,23 @@
 NAME
-    TheSchwartz::Web -
+    TheSchwartz::Web - Web UI for TheSchwartz database
 
 SYNOPSIS
-      use TheSchwartz::Web;
+      theschwartz-web
 
 DESCRIPTION
-    TheSchwartz::Web is
+SCREENSHOTS
+    <http://www.flickr.com/photos/bulknews/4461538724/>
+
+    <http://www.flickr.com/photos/bulknews/4461539862/>
 
 AUTHOR
     Tatsuhiko Miyagawa <miyagawa@bulknews.net>
 
 COPYRIGHT
     Copyright 2010- Tatsuhiko Miyagawa
+
+    HTML layout and stylesheet are borrowed from resque-web: Copyright 2009
+    Chris Wanstrath
 
 LICENSE
     This library is free software; you can redistribute it and/or modify it

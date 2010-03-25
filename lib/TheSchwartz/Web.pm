@@ -28,15 +28,19 @@ __END__
 
 =head1 NAME
 
-TheSchwartz::Web -
+TheSchwartz::Web - Web UI for TheSchwartz database
 
 =head1 SYNOPSIS
 
-  use TheSchwartz::Web;
+  theschwartz-web
 
 =head1 DESCRIPTION
 
-TheSchwartz::Web is
+=head1 SCREENSHOTS
+
+L<http://www.flickr.com/photos/bulknews/4461538724/>
+
+L<http://www.flickr.com/photos/bulknews/4461539862/>
 
 =head1 AUTHOR
 
