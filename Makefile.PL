@@ -1,0 +1,10 @@
+use inc::Module::Install;
+all_from 'lib/TheSchwartz/Web.pm';
+readme_from('lib/TheSchwartz/Web.pm');
+requires 'TheSchwartz::Simple', 0.06;
+requires 'Tatsumaki';
+requires 'Markapl';
+build_requires 'Test::More', 0.88;
+test_requires 'Test::Requires';
+auto_set_repository();
+WriteAll;

@@ -1,0 +1,17 @@
+#!perl
+use strict;
+use TheSchwartz::Web;
+use TheSchwartz::Simple;
+
+my @dsn = ('DBI:mysql:database=schwartz', 'root', undef);
+
+if ($0 eq __FILE__) {
+    require Plack::Runner;
+    my $r = Plack::Runner->new;
+    $r->parse_options(@ARGV);
+    $r->run(TheSchwartz::Web->handler(\@dsn));
+} else {
+    TheSchwartz::Web->handler(\@dsn);
+}
+
+
